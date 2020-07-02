@@ -1,38 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Montserrat&family=Nunito+Sans:ital,wght@1,300&display=swap");
 .App {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 2rem -1rem black;
+          box-shadow: 0 0 2rem -1rem black;
+}
+
+.App header {
+  font-family: 'Basic', sans-serif;
+  background-color: #2f3f4e;
+  padding: 3rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.App .parent {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App .parent .left-side {
+  border-bottom-left-radius: 1rem;
+  padding: 0rem 2rem;
+  background-color: #f1f1f1;
+  padding-bottom: 2rem;
+}
+
+.App .parent .left-side img {
+  border-radius: 50%;
+  width: 60%;
+  position: relative;
+  -webkit-transform: translate(30%, -50%);
+          transform: translate(30%, -50%);
+  -webkit-box-shadow: 0 0 2rem -1rem #f5f2f2;
+          box-shadow: 0 0 2rem -1rem #f5f2f2;
+}
+
+.App .parent .left-side > div h4 {
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.568);
   text-align: center;
+  padding: 0.5rem;
+  text-transform: capitalize;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .parent .left-side > div > p,
+.App .parent .left-side > div > div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem 5px;
+  background-color: #faf8f8;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .parent .left-side > div > p > p:last-child,
+.App .parent .left-side > div > div > p:last-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .parent .left-side > div > p > p:last-child > span,
+.App .parent .left-side > div > div > p:last-child > span {
+  margin-right: 3px;
+  height: 0.5rem;
+  border: 1px solid #2f3f4e;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.App .parent .left-side > div > p > p:last-child > span > span,
+.App .parent .left-side > div > div > p:last-child > span > span {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 25%;
+  border-radius: 0.5rem;
+  background-color: #2f3f4e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .parent .left-side > div > div + div {
+  margin-top: 0.5rem;
 }
+
+.App .parent .left-side .contact p {
+  padding: 0.5rem;
+}
+
+.App .parent .right-side {
+  border-bottom-right-radius: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+  background-color: #faf8f8;
+}
+/*# sourceMappingURL=App.css.map */
