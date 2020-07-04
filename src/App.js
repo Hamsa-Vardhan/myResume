@@ -64,20 +64,66 @@ function App() {
 						</p>
 					</div>
 				</div>
-				<div className="right-side col-8">
+				<div className="right-side col-8 border-dark">
 					<div className="col-12 row about">
-						<h3>About Me</h3>
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<FaUser className="mr-2" size={'1.5rem'} />About Me
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
 					</div>
 					<div className="col-12 row education">
-						<h3>Education</h3>
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<FcGraduationCap className="mr-2" size={'1.5rem'} />Education
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
 						<Education />
 					</div>
 					<div className="col-12 row projects">
-						<h3>Projects</h3>
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<FaProjectDiagram className="mr-2" size={'1.5rem'} />Projects
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
 						<Project />
 					</div>
 					<div className="col-12 row interest">
-						<h3>Interests</h3>
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<AiFillLike className="mr-2" size={'1.5rem'} />Interests
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
+						<ul className="row container" style={{ listStyleType: 'none' }}>
+							<li className="col-3" style={{ fontSize: '1rem' }}>
+								<GiCricketBat /> cricket
+							</li>
+							<li className="col-3" style={{ fontSize: '1rem' }}>
+								<GiShuttlecock /> Badminton
+							</li>
+							<li className="col-3" style={{ fontSize: '1rem' }}>
+								<FaLaptopCode /> coding
+							</li>
+							<li className="col-3" style={{ fontSize: '1rem' }}>
+								<GiMusicalNotes /> music
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

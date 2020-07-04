@@ -78,3 +78,43 @@
 		}
 	}
 }
+.parent-education {
+	margin: 1rem;
+	& > div {
+		border-radius: 0.8rem;
+		background-color: #f1f1f1;
+		padding: 1rem;
+		nav {
+			display: flex;
+			justify-content: space-between;
+			h5 {
+				text-transform: capitalize;
+				&:last-child {
+					color: rgba(0, 0, 0, 0.685);
+				}
+			}
+		}
+		p {
+			color: rgba(0, 0, 0, 0.466);
+		}
+	}
+	& > div {
+		margin-bottom: 1rem;
+	}
+}
+.parent-project {
+	margin: 1rem;
+	div {
+		background-color: #f1f1f1;
+		border-radius: 1rem;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		h5 {
+			font-weight: 500;
+			text-transform: capitalize;
+		}
+		p {
+			color: rgba(0, 0, 0, 0.685);
+		}
+	}
+}

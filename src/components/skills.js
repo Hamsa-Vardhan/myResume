@@ -102,7 +102,7 @@ function Skills() {
 			<div className="col-12">
 				<p className="container row">
 					<span>
-						<FaNode /> NODE(EXPRESS)
+						<FaNode /> NODEJS(EXPRESS)
 					</span>
 				</p>
 				<p className="container row">
