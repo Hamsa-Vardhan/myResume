@@ -3,7 +3,7 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaNodeJs, FaReact, FaNode } from 'react-icons/fa';
 import { IoLogoPython, IoLogoAngular } from 'react-icons/io';
 import { GrMysql } from 'react-icons/gr';
-import { DiMongodb, DiDjango } from 'react-icons/di';
+import { DiMongodb } from 'react-icons/di';
 function Skills() {
 	return (
 		<React.Fragment>
@@ -114,9 +114,7 @@ function Skills() {
 			</div>
 			<div className="col-12">
 				<p className="container row">
-					<span>
-						<DiDjango /> DJANGO{' '}
-					</span>
+					<span>FLASK</span>
 				</p>
 				<p className="container row">
 					<span className="col-10">

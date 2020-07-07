@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Skills from './components/skills';
+import Experience from './components/experience';
 import Education from './components/education';
 import Project from './components/projects';
 import ccd from './images/ccd-edited.jpg';
-import { FiPhoneCall } from 'react-icons/fi';
+import { FiPhoneCall, FiExternalLink } from 'react-icons/fi';
 import {
 	FaUser,
 	FaProjectDiagram,
@@ -12,8 +13,10 @@ import {
 	FaFacebookSquare,
 	FaLinkedin,
 	FaInstagram,
+	FaCertificate,
 	FaHome
 } from 'react-icons/fa';
+import { MdWork } from 'react-icons/md';
 import { FcGraduationCap } from 'react-icons/fc';
 import { AiFillLike } from 'react-icons/ai';
 import { GiCricketBat, GiShuttlecock, GiMusicalNotes } from 'react-icons/gi';
@@ -40,6 +43,12 @@ function App() {
 						<p className="col-12">
 							<FaHome className="mr-2" /> Srikakulam AP code: 532127
 						</p>
+					</div>
+					<div className="col-12 row portfolio">
+						<h4 className="col-12">Portfolio</h4>
+						<a href="https://hamsa-vardhan.github.io/portfolio/" target="_blank" className="col-12">
+							https://hamsa-vardhan.github.io/portfolio/
+						</a>
 					</div>
 					<div className="col-12 row skill">
 						<h4 className="col-12">skill</h4>
@@ -75,6 +84,13 @@ function App() {
 								<hr style={{ borderTop: '1.5px dotted black' }} />
 							</span>{' '}
 						</span>
+						<p className="container">
+							Fervent web developer with great enthusiasm to enrich web. I prefer to keep learning,
+							continue challenging myself, and do interesting things that matter. My abundant energy fuels
+							me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a
+							fast learner, able to pick up new skills and juggle different projects and roles with
+							relative ease
+						</p>
 					</div>
 					<div className="col-12 row education">
 						<span className="container-fluid row">
@@ -99,6 +115,41 @@ function App() {
 							</span>{' '}
 						</span>
 						<Project />
+					</div>
+					<div className="col-12 row">
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<MdWork className="mr-2" size={'1.5rem'} />Experience
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
+						<Experience />
+					</div>
+					<div className="col-12 row">
+						<span className="container-fluid row">
+							{' '}
+							<h3 className="col-5">
+								<FaCertificate className="mr-2" size={'1.5rem'} />Certifications
+							</h3>{' '}
+							<span className="col-7">
+								<hr style={{ borderTop: '1.5px dotted black' }} />
+							</span>{' '}
+						</span>
+						<p
+							className="container"
+							style={{
+								padding: '0.5rem 1rem',
+								borderRadius: '0.5rem',
+								margin: '1rem',
+								fontSize: '1.2rem',
+								backgroundColor: '#f1f1f1'
+							}}
+						>
+							I'm a Redhat certified system administrator
+						</p>
 					</div>
 					<div className="col-12 row interest">
 						<span className="container-fluid row">

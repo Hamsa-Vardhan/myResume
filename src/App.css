@@ -4,6 +4,7 @@
           box-sizing: border-box;
   -webkit-box-shadow: 0 0 2rem -1rem black;
           box-shadow: 0 0 2rem -1rem black;
+  margin-bottom: 3rem;
 }
 
 .App header {
@@ -100,6 +101,14 @@
   background-color: #faf8f8;
 }
 
+.App .parent .right-side .about p {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #f1f1f1;
+  color: rgba(0, 0, 0, 0.644);
+}
+
 .parent-education {
   margin: 1rem;
 }
@@ -136,22 +145,65 @@
 }
 
 .parent-project {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 
-.parent-project div {
+.parent-project ul {
+  list-style-type: none;
+}
+
+.parent-project ul li {
+  font-family: 'Basic', sans-serif;
+  padding: 0.5rem 1rem;
+  background-color: #f1f1f1;
+  font-size: 1.3rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.parent-project ul li:hover {
+  cursor: pointer;
+}
+
+.parent-experience {
+  margin: 1rem;
   background-color: #f1f1f1;
   border-radius: 1rem;
-  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.parent-experience h5 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parent-experience h5 span:first-child {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.parent-experience h5 span:last-child {
+  font-size: 1.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.parent-experience p {
+  margin: 1rem;
+  font-size: 1.05rem;
+}
+
+.portfolio a {
   padding: 0.5rem;
+  background-color: #faf8f8;
+  border-radius: 0.5rem;
+  color: black;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
 }
 
-.parent-project div h5 {
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.parent-project div p {
-  color: rgba(0, 0, 0, 0.685);
+.portfolio a:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=App.css.map */
