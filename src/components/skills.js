@@ -42,7 +42,7 @@ function Skills() {
 				</p>
 				<p className="container row">
 					<span className="col-10">
-						<span style={{ right: '35%' }} />
+						<span style={{ right: '15%' }} />
 					</span>{' '}
 					65%
 				</p>
@@ -118,7 +118,7 @@ function Skills() {
 				</p>
 				<p className="container row">
 					<span className="col-10">
-						<span style={{ right: '35%' }} />
+						<span style={{ right: '20%' }} />
 					</span>{' '}
 					65%
 				</p>
