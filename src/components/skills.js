@@ -31,7 +31,7 @@ function Skills() {
 					<span className="col-10">
 						<span />
 					</span>{' '}
-					75%
+					80%
 				</p>
 			</div>
 			<div className="col-12">
@@ -44,7 +44,7 @@ function Skills() {
 					<span className="col-10">
 						<span style={{ right: '15%' }} />
 					</span>{' '}
-					65%
+					85%
 				</p>
 			</div>
 			<div className="col-12">
@@ -81,7 +81,7 @@ function Skills() {
 				</p>
 				<p className="container row">
 					<span className="col-10">
-						<span />
+						<span style={{ right: '25%' }} />
 					</span>{' '}
 					75%
 				</p>
@@ -118,9 +118,9 @@ function Skills() {
 				</p>
 				<p className="container row">
 					<span className="col-10">
-						<span style={{ right: '20%' }} />
+						<span style={{ right: '25%' }} />
 					</span>{' '}
-					65%
+					75%
 				</p>
 			</div>
 		</React.Fragment>
