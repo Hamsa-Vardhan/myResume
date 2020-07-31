@@ -35,8 +35,8 @@ function App() {
 					<h4 className="col-12 text-center text-white">Full Stack Developer</h4>
 				</header>
 				<div className="row parent">
-					<div className="col-4 left-side">
-						<img src={ccd} alt="ccd image" className="img-thumbnail" />
+					<div className="col-sm-12 col-lg-4 left-side ">
+						<img src={ccd} alt="ccd" className="img-thumbnail d-none d-md-block d-lg-block d-xl-block" />
 						<div className="col-12 row contact">
 							<h4 className="col-12">contact</h4>
 							<p className="col-12">
@@ -51,7 +51,12 @@ function App() {
 						</div>
 						<div className="col-12 row portfolio">
 							<h4 className="col-12">Portfolio</h4>
-							<a href="https://hamsa-vardhan.github.io/portfolio/" target="_blank" className="col-12">
+							<a
+								href="https://hamsa-vardhan.github.io/portfolio/"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="col-12"
+							>
 								https://hamsa-vardhan.github.io/portfolio/
 							</a>
 						</div>
@@ -78,7 +83,7 @@ function App() {
 							</p>
 						</div>
 					</div>
-					<div className="right-side col-8 border-dark">
+					<div className="right-side col-sm-12 col-lg-8 border-dark">
 						<div className="col-12 row about">
 							<span className="container-fluid row">
 								{' '}
