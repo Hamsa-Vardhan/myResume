@@ -23,9 +23,7 @@ function Skills() {
 			</div>
 			<div className="col-12">
 				<p className="container row">
-					<span>
-						<FaNodeJs /> JAVASCRIPT
-					</span>
+					<span>TYPE SCRIPT</span>
 				</p>
 				<p className="container row">
 					<span className="col-10">

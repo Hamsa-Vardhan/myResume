@@ -206,4 +206,34 @@
 .portfolio a:hover {
   text-decoration: none;
 }
+
+aside {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #2f3f4e;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+aside .icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+aside:hover {
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 0.5rem -1px;
+          box-shadow: 0 0 0.5rem -1px;
+  cursor: pointer;
+}
+
+aside:hover .icon {
+  color: #2f3f4e;
+}
+
+aside:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=App.css.map */

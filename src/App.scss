@@ -164,3 +164,26 @@
 		margin-bottom: 1rem;
 	}
 }
+aside {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background-color: #2f3f4e;
+	padding: 0.5rem;
+	border-radius: 50%;
+	.icon {
+		font-size: 1.5rem;
+		color: white;
+	}
+	&:hover {
+		background-color: #f1f1f1;
+		.icon {
+			color: #2f3f4e;
+		}
+		box-shadow: 0 0 0.5rem -1px;
+		cursor: pointer;
+	}
+	&:active {
+		box-shadow: none;
+	}
+}
