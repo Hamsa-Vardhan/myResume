@@ -1,4 +1,5 @@
 import React from 'react';
+import hamsaResume from './resume/hamsaResume.pdf';
 import './App.css';
 import Skills from './components/skills';
 import Experience from './components/experience';
@@ -25,18 +26,18 @@ function App() {
 	return (
 		<React.Fragment>
 			<aside>
-				<a href="./resume.pdf" target="_blank" download="resume">
+				<a href={hamsaResume} rel="noopener noreferrer" target="_blank" download="hamsa_resume">
 					<FiDownload className="icon" />
 				</a>
 			</aside>
 			<div className="App container mt-3">
 				<header className="row">
-					<h1 className="col-12 text-center text-white">Hamsa Vardhan</h1>
-					<h4 className="col-12 text-center text-white">Full Stack Developer</h4>
+					<h1 className=" col-12 text-center text-white">Hamsa Vardhan</h1>
+					<h4 className=" col-12 text-center text-white">Full Stack Developer</h4>
 				</header>
 				<div className="row parent">
 					<div className="col-sm-12 col-lg-4 left-side ">
-						<img src={ccd} alt="ccd" className="img-thumbnail d-none d-md-block d-lg-block d-xl-block" />
+						<img src={ccd} alt="ccd" className="img-thumbnail d-none  d-lg-block d-xl-block" />
 						<div className="col-12 row contact">
 							<h4 className="col-12">contact</h4>
 							<p className="col-12">
