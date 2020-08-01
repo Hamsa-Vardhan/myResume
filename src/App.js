@@ -95,7 +95,7 @@ function App() {
 									<hr style={{ borderTop: '1.5px dotted black' }} />
 								</span>{' '}
 							</span>
-							<p className="container">
+							<p className="container-fluid">
 								Fervent web developer with great enthusiasm to enrich web. I prefer to keep learning,
 								continue challenging myself, and do interesting things that matter. My abundant energy
 								fuels me in the pursuit of many interests, hobbies, areas of study and artistic
@@ -150,7 +150,7 @@ function App() {
 								</span>{' '}
 							</span>
 							<p
-								className="container"
+								className="container-fluid"
 								style={{
 									padding: '0.5rem 1rem',
 									borderRadius: '0.5rem',
@@ -172,7 +172,7 @@ function App() {
 									<hr style={{ borderTop: '1.5px dotted black' }} />
 								</span>{' '}
 							</span>
-							<ul className="row container" style={{ listStyleType: 'none' }}>
+							<ul className="row container-fluid" style={{ listStyleType: 'none' }}>
 								<li className="col-3" style={{ fontSize: '1rem' }}>
 									<GiCricketBat /> cricket
 								</li>
