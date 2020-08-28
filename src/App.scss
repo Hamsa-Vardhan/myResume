@@ -187,3 +187,15 @@ aside {
 		box-shadow: none;
 	}
 }
+.skill-parent {
+	h5 {
+		font-weight: 700;
+	}
+	ul {
+		list-style-type: none;
+		font-family: 'Montserrat', sans-serif;
+		li {
+			margin: 0.5rem;
+		}
+	}
+}

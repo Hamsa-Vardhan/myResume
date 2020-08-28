@@ -236,4 +236,17 @@ aside:active {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.skill-parent h5 {
+  font-weight: 700;
+}
+
+.skill-parent ul {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-parent ul li {
+  margin: 0.5rem;
+}
 /*# sourceMappingURL=App.css.map */
