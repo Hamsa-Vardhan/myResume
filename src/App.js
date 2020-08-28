@@ -15,7 +15,8 @@ import {
 	FaLinkedin,
 	FaInstagram,
 	FaCertificate,
-	FaHome
+	FaHome,
+	FaTwitter
 } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
 import { FcGraduationCap } from 'react-icons/fc';
@@ -25,6 +26,11 @@ import { IoIosMailOpen } from 'react-icons/io';
 function App() {
 	return (
 		<React.Fragment>
+			<aside>
+				<a href={hamsaResume} rel="noopener noreferrer" target="_blank" download="hamsa_resume">
+					<FiDownload className="icon" />
+				</a>
+			</aside>
 			<div className="App container mt-3">
 				<header className="row">
 					<h1 className=" col-12 text-center text-white">Hamsa Vardhan</h1>
@@ -52,6 +58,7 @@ function App() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="col-12"
+								style={{ cursor: 'pointer' }}
 							>
 								https://hamsa-vardhan.github.io/portfolio/
 							</a>
@@ -64,17 +71,41 @@ function App() {
 							<h4 className="col-12">Follow me</h4>
 							<p className="col-12">
 								<span>
-									<FaLinkedin className="mr-2" />linkedin.com/in/hamsavardhans-profile
+									<a
+										href="https://www.linkedin.com/in/hamsavardhans-profile"
+										target="_blank"
+										rel="noopener noreferrer"
+										style={{ cursor: 'pointer', display: 'inline', color: 'black' }}
+									>
+										<FaLinkedin className="mr-2" />
+										linkedin.com/in/hamsavardhans-profile
+									</a>
 								</span>
 							</p>
 							<p className="col-12">
 								<span>
-									<FaFacebookSquare className="mr-2" />facebook.com/profile.php?id=100010967741162
+									<a
+										href="https://www.instagram.com/hamsa_vardhan/"
+										target="_blank"
+										rel="noopener noreferrer"
+										style={{ cursor: 'pointer', display: 'inline', color: 'black' }}
+									>
+										<FaInstagram className="mr-2" />
+										instagram.com/hamsa_vardhan/
+									</a>
 								</span>
 							</p>
 							<p className="col-12">
 								<span>
-									<FaInstagram className="mr-2" />instagram.com/hamsa_vardhan/
+									<a
+										href="https://twitter.com/hamsa_vardhan_d"
+										target="_blank"
+										rel="noopener noreferrer"
+										style={{ cursor: 'pointer', display: 'inline', color: 'black' }}
+									>
+										<FaTwitter className="mr-2" />
+										twitter.com/hamsa_vardhan_d
+									</a>
 								</span>
 							</p>
 						</div>
