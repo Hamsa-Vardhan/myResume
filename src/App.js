@@ -25,11 +25,6 @@ import { IoIosMailOpen } from 'react-icons/io';
 function App() {
 	return (
 		<React.Fragment>
-			<aside>
-				<a href={hamsaResume} rel="noopener noreferrer" target="_blank" download="hamsa_resume">
-					<FiDownload className="icon" />
-				</a>
-			</aside>
 			<div className="App container mt-3">
 				<header className="row">
 					<h1 className=" col-12 text-center text-white">Hamsa Vardhan</h1>
