@@ -5,8 +5,14 @@ function Project() {
 		<div className="container parent-project">
 			<ul className="row">
 				<li className=" col-sm-12 col-lg-5  ">
+					Crm Application{' '}
+					<a href="https://hava-crm.netlify.app/" target="_blank" rel="noopener noreferrer">
+						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
+					</a>{' '}
+				</li>
+				<li className=" col-sm-12 col-lg-5  ">
 					Personalized chat{' '}
-					<a href="https://hava-chat.netlify.app" target="_blank" rel="noopener noreferrer">
+					<a href="https://hava-simple-chat.netlify.app" target="_blank" rel="noopener noreferrer">
 						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
 					</a>{' '}
 				</li>
@@ -37,6 +43,12 @@ function Project() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
+						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
+					</a>{' '}
+				</li>
+				<li className=" col-sm-12 col-lg-5  ">
+					Codepen Clone{' '}
+					<a href="https://code-pen-clone-lovat.vercel.app/" target="_blank" rel="noopener noreferrer">
 						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
 					</a>{' '}
 				</li>
@@ -78,13 +90,7 @@ function Project() {
 						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
 					</a>{' '}
 				</li>
-				<li className=" col-sm-12 col-lg-5  ">
-					Pricing Cards{' '}
-					<a href="https://hava-pricing-cards.netlify.app/" target="_blank" rel="noopener noreferrer">
-						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
-					</a>{' '}
-				</li>
-				<li className="col-11">
+				<li className="col-sm-12 col-lg-5">
 					lodashlite (npm package){' '}
 					<a href="https://www.npmjs.com/package/lodashlite" target="_blank" rel="noopener noreferrer">
 						<FiExternalLink style={{ marginLeft: '1rem' }} size={'1.2rem'} />
